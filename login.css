@@ -1,0 +1,280 @@
+body {
+  background-image: url("images/green-sky-nature.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 700px;
+
+}
+
+.card_area {
+  background-color: rgba(0, 0, 0, 0.788);
+  border-radius: 27.5px 0px 0px 27.5px;
+
+}
+
+.login-card {
+  margin-top: 10%;
+  background-position: center;
+  margin-left: 40%;
+  border: 0;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 27.5px;
+  overflow: visible;
+
+}
+
+.container {
+  margin: 0%;
+}
+
+.logo_img {
+  display: inline;
+  padding-left: 5%;
+  width: 100%;
+  padding-top: 60%;
+
+
+}
+
+
+
+
+.login-card-description {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+
+.login-card form {
+  max-width: 326px;
+}
+
+.login-card .form-control {
+  border: 1px solid #d5dae2;
+
+
+  min-height: 45px;
+  font-size: 13px;
+  line-height: 15;
+  font-weight: normal;
+}
+
+.login-card .form-control::-webkit-input-placeholder {
+  color: #919aa3;
+}
+
+.login-card .form-control::-moz-placeholder {
+  color: #919aa3;
+}
+
+.login-card .form-control:-ms-input-placeholder {
+  color: #919aa3;
+}
+
+.login-card .form-control::-ms-input-placeholder {
+  color: #919aa3;
+}
+
+.login-card .form-control::placeholder {
+  color: #919aa3;
+}
+
+.login-btn {
+
+  background-color: rgb(147, 155, 161);
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+
+}
+
+.login-btn:hover {
+  border: 1px solid #000;
+  background-color: transparent;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 140, 255);
+}
+
+
+
+.login-card .forgot-password-link {
+  font-size: 14px;
+  color: #919aa3;
+  margin-bottom: 12px;
+}
+
+.login-card-footer-text {
+  font-size: 16px;
+  color: #0d2366;
+  margin-bottom: 60px;
+}
+
+
+
+.login-card-footer-nav a {
+  font-size: 14px;
+  color: #919aa3;
+}
+
+label {
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  background-color: rgb(207, 207, 207);
+  border-radius: 0px 27.5px 27.5px 0px;
+}
+
+.card-body {
+  margin-left: 10%;
+}
+
+.col-md-8 {
+  width: 10px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=login.css.map */
+
+
+@media only screen and (max-width: 992px) {
+  #title {
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: x-large;
+
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  .card {
+    width: 700px;
+  }
+
+  .login-card {
+    margin: 10%;
+    align-items: center;
+    margin-left: 20%;
+  }
+
+ 
+
+ 
+  .card_area {
+    background-color: rgba(0, 0, 0, 0.788);  
+  }
+  .login-card-description{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+}
+
+@media only screen and (max-width: 779px) {
+  #title {
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: x-large;
+
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  .card {
+    display:grid;
+    width: 200px;
+  }
+
+  .login-card {
+    margin: 0%;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .card_area {
+    display: flex;
+    width: 400px;
+  }
+
+  .logo_img, .logo{
+    display: none;
+  }
+  .card_area {
+    background-color: rgba(0, 0, 0, 0.788);
+    border-radius: 27.5px;
+    
+  
+  }
+  .login-card-description{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  #title {
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: x-large;
+
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  .card {
+    display:grid;
+    width: 200px;
+  }
+
+  .login-card {
+    margin: 0%;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .card_area {
+    display: flex;
+    width: 400px;
+  }
+
+  .logo_img, .logo{
+    display: none;
+  }
+  .card_area {
+    background-color: rgba(0, 0, 0, 0.788);
+    border-radius: 27.5px;
+    
+  
+  }
+  .login-card-description{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+}

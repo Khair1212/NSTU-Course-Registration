@@ -1,0 +1,23 @@
+body {
+     background-color: #cfcbbf; 
+    /* background-color: #1a1a1a */
+
+    /* background-image: url(uploads/16243-nstu.jpg); */
+}
+
+#SignupContent {
+    max-width: 600px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: black;
+}
+
+@media screen and (max-width: 600px) {
+    #SignupContent {
+            height: 100%;
+    }
+#materialToolbar {
+        padding: 10px;
+}
+}

@@ -1,0 +1,53 @@
+.std-header-info{
+	
+	align-content: center;
+	padding-top: 30px;
+}
+
+.text{
+	border: None ;
+	border-bottom: 2px solid black;
+	background-color: #89CFF0	;
+}
+
+input[type=Date]{
+	border: None ;
+	border-bottom: 2px solid black;
+	background-color: #89CFF0	;
+}
+
+.container{
+	align-content: center;
+	background-color: #89CFF0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+
+.borderless{
+	border: none;
+}
+
+.course-table{
+	width: 140px;
+	border: none;
+	background-color:#89CFF0;
+}
+
+.credit-table{
+	width: 30px;
+	border: none;
+	background-color: #89CFF0;
+}
+
+#table td input{
+	width: 100%;
+}
+
+.table{
+	box-shadow: 1px 1px 1px 1px #888888 ;
+	background-color:#89CFF0;
+}

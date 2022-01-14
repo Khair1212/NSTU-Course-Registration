@@ -1,0 +1,54 @@
+.std-header-info{
+	
+	margin: auto;
+	padding-top: 30px;
+}
+
+input[type=text]{
+	border: None ;
+	border-bottom: 2px solid black;
+	background-color: #ededed	;
+}
+
+input[type=Date]{
+	border: None ;
+	border-bottom: 2px solid black;
+	background-color: #ededed		;
+}
+
+
+.container{
+	align-content: center;
+	background-color: #ededed;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+
+table{
+	border-color: black;
+}
+
+.borderless{
+	border: none;
+}
+
+.roll_inp{
+	width: 40px;
+	border: None ;
+	box-shadow: 2px 2px 2px #888888 ;
+	border-bottom: 2px solid black;
+	background-color: #ededed;
+	border-color: black;
+}
+
+.term-fee{
+	border: none;
+	box-shadow: None;
+	border-bottom: none; 
+	background-color: #ededed
+}
+

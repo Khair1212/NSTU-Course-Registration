@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+#header {
+    /* background-color:#5f0b12; */
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 36px;
+    /*font-family:Verdana, Geneva, sans-serif;*/
+}
+
+#body {
+    text-align: center;
+    /* background-color: rgb(146, 147, 150); */
+    margin-top: 100px;
+}
+
+#body table {
+    margin: 0 auto;
+    position: relative;
+    bottom: 50px;
+}
+
+table td, th {
+    padding: 20px;
+    border: solid #9fa8b0 1px;
+    border-collapse: collapse;
+}
